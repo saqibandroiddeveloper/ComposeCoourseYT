@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComposeCoourseYT"
+        tools:targetApi="31" >
+        <activity
+            android:name=".tweetsyapp.TweetsyActivity"
+            android:exported="true"
+            android:label="@string/title_activity_tweetsy"
+            android:theme="@style/Theme.ComposeCoourseYT" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".permissions.PermisionActivity"
+            android:exported="true"
+            android:label="@string/title_activity_permision"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".MultiSelectActivity"
+            android:exported="true"
+            android:label="@string/title_activity_multi_select"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".bottom_nav.BottomNavActivity"
+            android:exported="true"
+            android:label="@string/title_activity_bottom_nav"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".splash.SplashActivity"
+            android:exported="true"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".navigation.NavigationActivity"
+            android:exported="true"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".profile_ui.ProfileUIActivity"
+            android:exported="true"
+            android:label="@string/title_activity_profile_uiactivity"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".AnimatedDropdown"
+            android:exported="true"
+            android:label="@string/title_activity_animated_dropdown"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".TimerActivity"
+            android:exported="true"
+            android:label="@string/title_activity_timer"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".meditation_ui.MeditationActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maditation"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".MusicNobActivity"
+            android:exported="true"
+            android:label="@string/title_activity_music_nob"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".AnimProgressBarActivity"
+            android:exported="true"
+            android:label="@string/title_activity_anim_progress_bar"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".SimpleAnimActvity"
+            android:exported="true"
+            android:label="@string/title_activity_simple_anim_actvity"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".ConstraintLActivity"
+            android:exported="true"
+            android:label="@string/title_activity_constraint_lactivity"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".ListActivity"
+            android:exported="true"
+            android:label="@string/title_activity_list"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".TextFieldBtnSnackbarActivity"
+            android:exported="true"
+            android:label="@string/title_activity_text_field_btn_snackbar"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".StateActivity"
+            android:exported="true"
+            android:label="@string/title_activity_state"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".TextStyleActivity"
+            android:exported="true"
+            android:label="@string/title_activity_text_style"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".ImageCardActvity"
+            android:exported="true"
+            android:label="@string/title_activity_image_card_actvity"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".ModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_modifier"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ComposeCoourseYT" />
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ComposeCoourseYT</string>
+    <string name="title_activity_modifier">ModifierActivity</string>
+    <string name="title_activity_image_card_actvity">ImageCardActvity</string>
+    <string name="title_activity_text_style">TextStyleActivity</string>
+    <string name="title_activity_state">StateActivity</string>
+    <string name="title_activity_text_field_btn_snackbar">TextFieldBtnSnackbarActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_constraint_lactivity">ConstraintLActivity</string>
+    <string name="title_activity_simple_anim_actvity">SimpleAnimActvity</string>
+    <string name="title_activity_anim_progress_bar">AnimProgressBarActivity</string>
+    <string name="title_activity_music_nob">MusicNobActivity</string>
+    <string name="title_activity_maditation">MaditationActivity</string>
+    <string name="title_activity_ccactivity">CCActivity</string>
+    <string name="title_activity_timer">TimerActivity</string>
+    <string name="title_activity_animated_dropdown">AnimatedDropdown</string>
+    <string name="title_activity_profile_uiactivity">ProfileUIActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+    <string name="title_activity_multi_select">MultiSelectActivity</string>
+    <string name="title_activity_permision">PermisionActivity</string>
+    <string name="title_activity_tweetsy">TweetsyActivity</string>
+</resources>
